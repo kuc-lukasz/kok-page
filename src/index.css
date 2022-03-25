@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta&family=Rubik:wght@300&display=swap");
+
+body {
+    margin: 0;
+    font-family: "Mukta", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+body::before {
+    opacity: 0.6;
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("../src/images/tlo-page.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
+}
