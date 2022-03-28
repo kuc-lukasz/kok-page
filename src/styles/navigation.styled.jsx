@@ -3,8 +3,8 @@ import styled from "styled-components";
 export const NavButtons = styled.div`
     width: 100%;
     height: 55px;
-    margin: 0 auto 10px auto;
-    padding: 10px;
+    margin: 0 auto;
+
     display: flex;
     justify-content: end;
     box-shadow: 0 6px 5px 0px #dbdbdb;

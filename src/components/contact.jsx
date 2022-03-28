@@ -14,15 +14,20 @@ export const Contact = () => {
             <img src={contactIcon} alt="financeOffer" />
             <h1>Kontakt</h1>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-                blanditiis nesciunt adipisci aut totam repudiandae. Voluptate
-                vel a amet veritatis qui eligendi necessitatibus, quia quod
-                laboriosam ullam delectus quam dolorem? Enim aspernatur esse
-                laboriosam cumque, assumenda eius iure explicabo consectetur.
-                Beatae officia hic quae nobis quo veritatis, tempora id vel quos
-                adipisci! Qui ipsam voluptatem, iure reprehenderit recusandae
-                neque aliquam! Voluptatem iusto molestiae debitis, praesentium
-                reprehenderit similique magnam, libero placeat dolores
+                <p>
+                    {" "}
+                    Niewątpliwie, abyśmy mogli porozmawiać musimy podjąć
+                    pierwszy kontakt. W tym wypadku masz kilka możliwości.
+                    Możesz po prostu do mnie zadzwonić, abyśmy umówili się na
+                    rozmowę. Jeśli akurat nie możesz rozmwaiać napisz maila,
+                    bądź wypełnił formularz gdzie streścisz mi swoje
+                    oczekiwania.
+                </p>
+
+                <p>
+                    Wybierz formę, która Ci najbardziej odpowiada. Zadzwoń, bądź
+                    zostaw mi swoje dane kontaktowe, a ja odezwę się Ciebie.
+                </p>
             </p>
             <ContactPosibilites>
                 <ContactSingleWindow>

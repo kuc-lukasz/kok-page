@@ -14,7 +14,6 @@ export const MainPageWindow = styled.div`
         flex-direction: column;
         align-items: flex-start;
         height: 130px;
-        /* width: 120%; */
     }
 `;
 
@@ -39,7 +38,7 @@ export const Link = styled.div`
     img {
         width: 25px;
         height: 25px;
-        margin: 5px;
+        margin: 10px;
     }
     @media screen and (max-width: 600px) {
         margin: 0;
@@ -72,14 +71,14 @@ export const PhoneNumber = styled.div`
     box-shadow: 0px 0px 5px 0px #a6a6a6;
     width: 160px;
     height: 50px;
-    background-color: #d8b703;
+    background-color: #084182;
     margin: 20px;
-    border-radius: 10px;
+    border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
     a {
-        color: #084182;
+        color: white;
         font-size: large;
         font-weight: 600;
         text-decoration: none;
@@ -92,7 +91,6 @@ export const PhoneNumber = styled.div`
         right: 5px;
         margin: 5px;
         a {
-            color: #084182;
             font-size: medium;
             font-weight: 600;
             text-decoration: none;

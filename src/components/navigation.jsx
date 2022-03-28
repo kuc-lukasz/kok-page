@@ -1,5 +1,6 @@
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { NavButtons, NavButton } from "../styles/navigation.styled";
+import { HowWeWork } from "./HowWeWork";
 
 export const Navigation = () => {
     const navigate = useNavigate();
@@ -10,6 +11,9 @@ export const Navigation = () => {
                 Usługi finansowe
             </NavButton>
             <NavButton onClick={() => navigate("/contact")}>Kontakt</NavButton>
+            {/* <NavButton onClick={() => navigate(`/${HowWeWork}`)}>
+                Nasza współpraca
+            </NavButton> */}
         </NavButtons>
     );
 };

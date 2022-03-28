@@ -1,12 +1,12 @@
 import styled, { css } from "styled-components";
 
 export const ContactWindow = styled.div`
-    margin: 15px;
+    box-sizing: border-box;
     padding: 15px;
-    max-width: 960px;
-    border-radius: 10px;
     color: #084182;
-    background-color: #ffffffd6;
+    width: 100%;
+
+    background-color: #ffffff97;
     img {
         width: 64px;
         padding-top: 20px;
@@ -17,9 +17,8 @@ export const ContactWindow = styled.div`
     p {
         margin: 0 20px 20px 20px;
         text-align: justify;
-    }
-    @media screen and (max-width: 600px) {
-        max-width: 350px;
+        max-width: 960px;
+        display: inline-block;
     }
 `;
 
@@ -44,16 +43,16 @@ export const ContactForm = styled.div`
     box-shadow: 0px 0px 5px 0px #a6a6a6;
     width: 250px;
     height: 50px;
-    background-color: #d8b703;
+    background-color: #084182;
     margin: 0 20px 20px 20px;
     border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     a {
-        color: #084182;
+        color: #ffffff;
         font-size: large;
-        font-weight: 600;
+        font-weight: 500;
         text-decoration: none;
     }
     @media screen and (max-width: 600px) {
